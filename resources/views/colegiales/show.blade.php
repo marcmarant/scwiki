@@ -14,5 +14,6 @@
                 <li>{{ $curso->id }} | Hab: {{ $curso->pivot->habitacion }}</li>
             @endforeach
         </ul>
+        <img src="{{ env('IMG_HOST') }}/{{ $colegial->foto_perfil }}" alt="Foto del colegial" style="width: 240px; height: 300px;">
     </div>
 @endsection
